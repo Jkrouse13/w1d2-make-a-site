@@ -1,26 +1,21 @@
-/*body {background-color:rgb(130, 130, 130); }
+body {background-color:rgb(130, 130, 130); }
 .topper {text-align: center;font-size: 55px;}
-img {padding-bottom: 25px; padding-top: 15px;}
-.pic {transform: scale(.8);}
-/*#schedule {color: #247BA0;}*/
-/*.smaller {font-size: 40px; color: #247BA0;}
+/*img {padding-bottom: 25px; padding-top: 15px;}*/
+.pic {transform: scale(.8); justify-content: center;}
+#schedule {background-color: rgb(28, 28, 28);
+        color: white;}
+.smaller {font-size: 40px; color: #247BA0;}
 .bigger {font-size: 70px;}
-.purple-text{color: purple;}*/*/
-body {text-align: center;}
-.ugly, .beautiful, button {width: 250px}
-.ugly {background-color: rgb(25, 42, 133);
-  border: 20px solid red;
-border-top: 5px solid blue;}
-.beautiful {
-  background: transparent;
-  border: 2px solid blue;
+button {  background: transparent;
+  border: 2px solid #247BA0;
   border-radius: 10px;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
-  transition: all .3s ease;}
- button > span {font-size: 50px;}
- .beautiful:hover {
-   transform: scale(2) rotate(45deg);
-   border-color: red;
- }
- body {font-family: 'Josefin Sans', sans-serif;}
+  transition: all .3s ease;
+  box-shadow: 5px 5px 20px rgba(25, 82, 107, 0.7);}
+button:hover {transform: scale(1.1);
+        border-color: #92140C;}
+header {font-family: 'Josefin Sans', sans-serif;
+        background-color: rgb(28, 28, 28); color: white;
+        padding-top: 15px;
+        text-align: center;}
